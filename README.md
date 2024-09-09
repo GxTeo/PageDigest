@@ -8,6 +8,7 @@ PageDigest is a Google Chrome extension designed to provide concise summaries of
   - [Installation](#installation)
   - [Configuration](#configuration)
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 
 ## Setup
 
@@ -48,3 +49,8 @@ Instructions on how to use the project.
 
 Click on the PageDigest extension icon in the Chrome toolbar.
 Click the "Summarize Page" button to generate a summary of the current webpage.
+
+Screenshots
+Here is a screenshot of the PageDigest extension in action:
+
+![Screenshot](/assets/screenshot.jpg)
