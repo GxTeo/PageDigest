@@ -1,7 +1,14 @@
+# package
+node_modules
+node_modules/*
+package.json
+package-lock.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+virtualenv/*
 
 # C extensions
 *.so

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "PageDigest",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/"
+  ],
+  "background": {
+    "service_worker": "./backend/background.js"
+  },
+  "action": {
+    "default_popup": "./frontend/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
